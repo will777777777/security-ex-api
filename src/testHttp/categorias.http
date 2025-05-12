@@ -1,0 +1,15 @@
+@url = https://8080-marcoweb-securitytutori-2l6nzx35gk1.ws-us118.gitpod.io
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGQVRFQyBBUEkiLCJzdWIiOiJhZG1pbiIsImV4cCI6MTc0NTg3NzAzM30.X0Dac6w7jm7qrwbpjL_F62m1ILzikuz8EijqIWm1HWs
+
+GET {{url}}/categorias
+Authorization:  Bearer {{token}}
+
+###
+POST {{url}}/categorias
+Authorization:  Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome" : "Ciencias Exatas"
+}

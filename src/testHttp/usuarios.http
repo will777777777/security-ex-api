@@ -1,0 +1,11 @@
+@url = https://8080-marcoweb-securitytutori-9jmfkt0ko87.ws-us118.gitpod.io
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGQVRFQyBBUEkiLCJzdWIiOiJhZG1pbiIsImV4cCI6MTc0NTk2NjcwMH0.wVi6zHweZ14LB265IqOKEzKL1Z4H8Gbrrbciz0wrbXk
+
+POST {{url}}/usuarios
+Authorization:  Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nomeDeUsuario" : "nono",
+    "senha" : "testando"
+}

@@ -1,0 +1,14 @@
+@url = https://8080-marcoweb-securitytutori-9jmfkt0ko87.ws-us118.gitpod.io
+
+POST {{url}}/auth
+Content-Type: application/json
+
+{
+    "nomeDeUsuario" : "teste",
+    "senha" : "testando"
+}
+
+#{
+#    "nomeDeUsuario" : "admin",
+#    "senha" : "admin"
+#}
